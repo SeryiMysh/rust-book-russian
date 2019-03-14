@@ -1,6 +1,6 @@
-# Introduction
+# Введение
 
-> Note: This edition of the book is the same as [The Rust Programming
+> Примечание: This edition of the book is the same as [The Rust Programming
 > Language][nsprust] available in print and ebook format from [No Starch
 > Press][nsp].
 
@@ -15,15 +15,15 @@ technical capacity and a great developer experience, Rust gives you the option
 to control low-level details (such as memory usage) without all the hassle
 traditionally associated with such control.
 
-## Who Rust Is For
+## Кому нужен Rust
 
-Rust is ideal for many people for a variety of reasons. Let’s look at a few of
-the most important groups.
+Rust идеальный язык для множества людей по разным причинам. Давайте сделаем
+краткий обзор по некоторым группам, самым важным из них.
 
-### Teams of Developers
+### Команды разработчиков
 
-Rust is proving to be a productive tool for collaborating among large teams of
-developers with varying levels of systems programming knowledge. Low-level code
+Rust предоставляет полезный инструмент для совместной работы больших команд
+разработчиков с разным уровнем знаний системного программирования. Low-level code
 is prone to a variety of subtle bugs, which in most other languages can be
 caught only through extensive testing and careful code review by experienced
 developers. In Rust, the compiler plays a gatekeeper role by refusing to
@@ -43,7 +43,7 @@ Rust also brings contemporary developer tools to the systems programming world:
 By using these and other tools in the Rust ecosystem, developers can be
 productive while writing systems-level code.
 
-### Students
+### Студенты
 
 Rust is for students and those who are interested in learning about systems
 concepts. Using Rust, many people have learned about topics like operating
@@ -52,7 +52,7 @@ student questions. Through efforts such as this book, the Rust teams want to
 make systems concepts more accessible to more people, especially those new to
 programming.
 
-### Companies
+### Компании
 
 Hundreds of companies, large and small, use Rust in production for a variety of
 tasks. Those tasks include command line tools, web services, DevOps tooling,
@@ -60,13 +60,13 @@ embedded devices, audio and video analysis and transcoding, cryptocurrencies,
 bioinformatics, search engines, Internet of Things applications, machine
 learning, and even major parts of the Firefox web browser.
 
-### Open Source Developers
+### Разработчики программ с открытым исходным кодом
 
 Rust is for people who want to build the Rust programming language, community,
 developer tools, and libraries. We’d love to have you contribute to the Rust
 language.
 
-### People Who Value Speed and Stability
+### Людей которые ценят скорость и стабильность
 
 Rust is for people who crave speed and stability in a language. By speed, we
 mean the speed of the programs that you can create with Rust and the speed at
@@ -183,7 +183,7 @@ error. Ferris will also help you distinguish code that isn’t meant to work:
 In most situations, we’ll lead you to the correct version of any code that
 doesn’t compile.
 
-## Source Code
+## Исходный код
 
 The source files from which this book is generated can be found on
 [GitHub][book].
