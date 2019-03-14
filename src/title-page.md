@@ -1,18 +1,19 @@
-# The Rust Programming Language
+# Язык программирования Rust
 
-Welcome to The Rust Programming Language book! This version of the text assumes
-you are using Rust 1.31.0 or later, with `edition="2018"` in *Cargo.toml* of
-all projects to use Rust 2018 Edition idioms. See the [“Installation” section
-of Chapter 1][install]<!-- ignore --> to install or update Rust, and see
-[Appendix E][editions]<!-- ignore --> for information on what editions of Rust
-are.
+Добро пожаловать в книгу Язык программирования Rust! Данная версия руководства
+подразумевает что вы используете Rust 1.31.0 или более позднюю, с установленной
+опцией `edition="2018"` в файле настроек *Cargo.toml* всех проектов. Это позволит 
+использовать диалект Rust версии 2018. Смотрите [раздел “Установка” Части 1]
+[install]<!-- ignore --> для установки или обновления Rust, также смотрите 
+[Приложение E][editions]<!-- ignore --> для информации о том, какие версии Rust 
+существуют.
 
-The HTML format is available online at
+Книга в формате HTML доступна онлайн по адресу
 [https://doc.rust-lang.org/stable/book/](https://doc.rust-lang.org/stable/book/)
-and offline with installations of Rust made with `rustup`; run `rustup docs
---book` to open.
+и оффлайн вместе с установкой Rust выполненой утилитой `rustup`; 
+для просмотра выполните комманду `rustup docs --book`.
 
-This text is available in [paperback and ebook format from No Starch
+Данная книга доступна в [печатной версии и формате ebook на No Starch
 Press][nsprust].
 
 [install]: ch01-01-installation.html
