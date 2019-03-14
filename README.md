@@ -1,8 +1,8 @@
-# The Rust Programming Language
+# Язык программирования Rust
 
 [![Build Status](https://travis-ci.org/rust-lang/book.svg?branch=master)](https://travis-ci.org/rust-lang/book)
 
-This repository contains the source of "The Rust Programming Language" book.
+Данный репозитарий содержит исходные файлы книги "Язык программирования Rust".
 
 [The book is available in dead-tree form from No Starch Press][nostarch]
 
@@ -17,7 +17,7 @@ releases are updated less frequently.
 [beta]: https://doc.rust-lang.org/beta/book/
 [nightly]: https://doc.rust-lang.org/nightly/book/
 
-## Requirements
+## Требования
 
 Building the book requires [mdBook], ideally the same version that
 [rust-lang/rust uses in this file][rust-mdbook]. To get it:
@@ -29,7 +29,7 @@ Building the book requires [mdBook], ideally the same version that
 $ cargo install mdbook --vers [version-num]
 ```
 
-## Building
+## Сборка
 
 To build the book, type:
 
@@ -62,14 +62,14 @@ To run the tests:
 $ mdbook test
 ```
 
-## Contributing
+## Поддержка
 
 We'd love your help! Please see [CONTRIBUTING.md][contrib] to learn about the
 kinds of contributions we're looking for.
 
 [contrib]: https://github.com/rust-lang/book/blob/master/CONTRIBUTING.md
 
-### Translations
+### Переводы
 
 We'd love help translating the book! See the [Translations] label to join in
 efforts that are currently in progress. Open a new issue to start working on
@@ -93,7 +93,7 @@ In the generated SVG, remove the width and the height attributes from the `svg`
 element and set the `viewBox` attribute to `0.00 0.00 1000.00 1000.00` or other
 values that don't cut off the image.
 
-## Spellchecking
+## Проверка орфографии
 
 To scan source files for spelling errors, you can use the `spellcheck.sh`
 script. It needs a dictionary of valid words, which is provided in
