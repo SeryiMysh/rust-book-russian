@@ -1,4 +1,4 @@
-## Variables and Mutability
+## Переменные и мутабельность
 
 As mentioned in Chapter 2, by default variables are immutable. This is one of
 many nudges Rust gives you to write your code in a way that takes advantage of
@@ -102,7 +102,7 @@ instances. With smaller data structures, creating new instances and writing in
 a more functional programming style may be easier to think through, so lower
 performance might be a worthwhile penalty for gaining that clarity.
 
-### Differences Between Variables and Constants
+### Различие между переменными и константами
 
 Being unable to change the value of a variable might have reminded you of
 another programming concept that most other languages have: *constants*. Like

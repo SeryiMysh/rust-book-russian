@@ -1,4 +1,4 @@
-# Foreword
+# Предисловие
 
 It wasn’t always so clear, but the Rust programming language is fundamentally
 about *empowerment*: no matter what kind of code you are writing now, Rust

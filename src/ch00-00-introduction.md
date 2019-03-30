@@ -1,19 +1,20 @@
 # Введение
 
-> Примечание: This edition of the book is the same as [The Rust Programming
-> Language][nsprust] available in print and ebook format from [No Starch
-> Press][nsp].
+> Примечание: Данная редакция книги идентична книге [Язык программирования 
+> Rust][nsprust] доступной в печатном и электронном формате ebook на сайте 
+> [No Starch Press][nsp].
 
 [nsprust]: https://nostarch.com/rust
 [nsp]: https://nostarch.com/
 
-Welcome to *The Rust Programming Language*, an introductory book about Rust.
-The Rust programming language helps you write faster, more reliable software.
-High-level ergonomics and low-level control are often at odds in programming
-language design; Rust challenges that conflict. Through balancing powerful
-technical capacity and a great developer experience, Rust gives you the option
-to control low-level details (such as memory usage) without all the hassle
-traditionally associated with such control.
+Добро пожаловать в *Язык программирования Rust*, это вводная книга по языку 
+Rust. Язык программирования Rust позволяет вам писать быстрые и надежные 
+приложения. Высокоуровневая эргономика и низкоуровневый контроль, часто 
+встречающиеся разногласия в дизайне языков программирования; Rust призван 
+решить данный конфликт. Благодаря мощной балансировке технической 
+производительности и огромному опыту наших разработчиков, Rust даёт 
+возможность контролировать эти низкоуровневые детали (такие как использование 
+памяти) без всяких проблем, традиционно связанных с таким контролем.
 
 ## Кому нужен Rust
 
@@ -23,42 +24,44 @@ Rust идеальный язык для множества людей по ра�
 ### Команды разработчиков
 
 Rust предоставляет полезный инструмент для совместной работы больших команд
-разработчиков с разным уровнем знаний системного программирования. Low-level code
-is prone to a variety of subtle bugs, which in most other languages can be
-caught only through extensive testing and careful code review by experienced
-developers. In Rust, the compiler plays a gatekeeper role by refusing to
-compile code with these elusive bugs, including concurrency bugs. By working
-alongside the compiler, the team can spend their time focusing on the program’s
-logic rather than chasing down bugs.
+разработчиков с разным уровнем знаний системного программирования. Низкоуровневый
+программный код склонен к множеству труднообнаруживаемых ошибок, которые в 
+большинстве других языков могут быть найдены только с помощью обширного 
+тестирования и внимательного анализа кода опытными разработчиками. В языке Rust, 
+компилятор играет роль шлюза, приостанавливая компиляцию кода содержащего подобные 
+неуловимые ошибки, включая ошибки совместного доступа. Используя в работе данный 
+компилятор, команда может тратить свое время на логику программы, а не на поиск 
+ошибок.
 
-Rust also brings contemporary developer tools to the systems programming world:
+Так же Rust предоставляет современные инструменты разработчика для мира системного 
+программирования:
 
-* Cargo, the included dependency manager and build tool, makes adding,
-  compiling, and managing dependencies painless and consistent across the Rust
-  ecosystem.
-* Rustfmt ensures a consistent coding style across developers.
-* The Rust Language Server powers Integrated Development Environment (IDE)
-  integration for code completion and inline error messages.
+* Cargo, встроенный менеджер зависимостей и инструмент сборки, выполняет добавление, 
+  компиляцию и управляет зависимостями безболезненно и согласовано внутри экосистемы 
+  Rust.
+* Rustfmt обеспечивает единый стиль программирования для всех разработчиков.
+* Сервер языка Rust предоставляет Интегрированным Средам Разработки (IDE)
+  сервис для автодополнения кода и встроенной информации об ошибках.
 
-By using these and other tools in the Rust ecosystem, developers can be
-productive while writing systems-level code.
+Используя эти и другие инструменты существующие в экосистеме Rust, разработчики 
+могут быть более продуктивными при написании кода системного уровня.
 
 ### Студенты
 
-Rust is for students and those who are interested in learning about systems
-concepts. Using Rust, many people have learned about topics like operating
-systems development. The community is very welcoming and happy to answer
-student questions. Through efforts such as this book, the Rust teams want to
-make systems concepts more accessible to more people, especially those new to
-programming.
+Rust для студентов и тех кто интересуется изучением концепции работы систем. 
+Используя Rust, множество людей могут получить информацию по таким темам
+как разработка операционных систем. Наше сообщество очень дружелюбно и будет
+счастливо ответить на любые вопросы студентов. Прилагая усилия, такие как эта книга, 
+команда Rust хочет сделать системные концепции более доступными для большего числа 
+людей, особенно для новичков.
 
 ### Компании
 
-Hundreds of companies, large and small, use Rust in production for a variety of
-tasks. Those tasks include command line tools, web services, DevOps tooling,
-embedded devices, audio and video analysis and transcoding, cryptocurrencies,
-bioinformatics, search engines, Internet of Things applications, machine
-learning, and even major parts of the Firefox web browser.
+Сотни компаний, мелких и крупных, используют Rust в работе для различных задач. 
+Данные задачи включают в себя инструменты коммандной строки, веб-сервисы, 
+инструментарий DevOps, встроенные устройства, анализ и кодирование аудио и видео, 
+криптовалюты, биоинформатика, поисковые машины, приложения для Интернета вещей, машинное 
+обучение и даже некоторые важные части веб-браузера Firefox.
 
 ### Разработчики программ с открытым исходным кодом
 
@@ -83,7 +86,7 @@ ambition is to eliminate the trade-offs that programmers have accepted for
 decades by providing safety *and* productivity, speed *and* ergonomics. Give
 Rust a try and see if its choices work for you.
 
-## Who This Book Is For
+## Для кого эта книга
 
 This book assumes that you’ve written code in another programming language but
 doesn’t make any assumptions about which one. We’ve tried to make the material
@@ -92,7 +95,7 @@ don’t spend a lot of time talking about what programming *is* or how to think
 about it. If you’re entirely new to programming, you would be better served by
 reading a book that specifically provides an introduction to programming.
 
-## How to Use This Book
+## Как пользоваться данной книгой
 
 In general, this book assumes that you’re reading it in sequence from front to
 back. Later chapters build on concepts in earlier chapters, and earlier
@@ -173,7 +176,7 @@ and run a random example, it may not compile! Make sure you read the
 surrounding text to see whether the example you’re trying to run is meant to
 error. Ferris will also help you distinguish code that isn’t meant to work:
 
-| Ferris                                                                 | Meaning                                          |
+| Ferris                                                                 | Значение                                          |
 |------------------------------------------------------------------------|--------------------------------------------------|
 | <img src="img/ferris/does_not_compile.svg" class="ferris-explain"/>    | This code does not compile!                      |
 | <img src="img/ferris/panics.svg" class="ferris-explain"/>              | This code panics!                                |

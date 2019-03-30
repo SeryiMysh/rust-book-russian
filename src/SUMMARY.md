@@ -1,27 +1,27 @@
-# The Rust Programming Language
+# Язык программирования Rust
 
-[The Rust Programming Language](title-page.md)
-[Foreword](foreword.md)
-[Introduction](ch00-00-introduction.md)
+[Язык программирования Rust](title-page.md)
+[Вступительное слово](foreword.md)
+[Введение](ch00-00-introduction.md)
 
-## Getting started
+## Начало работы
 
-- [Getting Started](ch01-00-getting-started.md)
-    - [Installation](ch01-01-installation.md)
-    - [Hello, World!](ch01-02-hello-world.md)
-    - [Hello, Cargo!](ch01-03-hello-cargo.md)
+- [Начало работы](ch01-00-getting-started.md)
+    - [Установка](ch01-01-installation.md)
+    - [Здравствуй, мир!](ch01-02-hello-world.md)
+    - [Привет, Cargo!](ch01-03-hello-cargo.md)
 
-- [Programming a Guessing Game](ch02-00-guessing-game-tutorial.md)
+- [Программирование игры в Угадайку](ch02-00-guessing-game-tutorial.md)
 
-- [Common Programming Concepts](ch03-00-common-programming-concepts.md)
-    - [Variables and Mutability](ch03-01-variables-and-mutability.md)
-    - [Data Types](ch03-02-data-types.md)
-    - [Functions](ch03-03-how-functions-work.md)
-    - [Comments](ch03-04-comments.md)
-    - [Control Flow](ch03-05-control-flow.md)
+- [Общая концепция программирования](ch03-00-common-programming-concepts.md)
+    - [Переменные и мутабельность](ch03-01-variables-and-mutability.md)
+    - [Типы данных](ch03-02-data-types.md)
+    - [Функции](ch03-03-how-functions-work.md)
+    - [Комментарии](ch03-04-comments.md)
+    - [Управление потоком](ch03-05-control-flow.md)
 
-- [Understanding Ownership](ch04-00-understanding-ownership.md)
-    - [What is Ownership?](ch04-01-what-is-ownership.md)
+- [Понятие владения](ch04-00-understanding-ownership.md)
+    - [Что такое владение?](ch04-01-what-is-ownership.md)
     - [References and Borrowing](ch04-02-references-and-borrowing.md)
     - [The Slice Type](ch04-03-slices.md)
 
@@ -113,7 +113,7 @@
     - [Refutability: Whether a Pattern Might Fail to Match](ch18-02-refutability.md)
     - [Pattern Syntax](ch18-03-pattern-syntax.md)
 
-- [Advanced Features](ch19-00-advanced-features.md)
+- [Дополнительные возможности](ch19-00-advanced-features.md)
     - [Unsafe Rust](ch19-01-unsafe-rust.md)
     - [Advanced Lifetimes](ch19-02-advanced-lifetimes.md)
     - [Advanced Traits](ch19-03-advanced-traits.md)
@@ -126,11 +126,11 @@
     - [Turning Our Single-Threaded Server into a Multithreaded Server](ch20-02-multithreaded.md)
     - [Graceful Shutdown and Cleanup](ch20-03-graceful-shutdown-and-cleanup.md)
 
-- [Appendix](appendix-00.md)
-    - [A - Keywords](appendix-01-keywords.md)
+- [Приложения](appendix-00.md)
+    - [A - Ключевые слова](appendix-01-keywords.md)
     - [B - Operators and Symbols](appendix-02-operators.md)
     - [C - Derivable Traits](appendix-03-derivable-traits.md)
     - [D - Useful Development Tools](appendix-04-useful-development-tools.md)
     - [E - Editions](appendix-05-editions.md)
-    - [F - Translations of the Book](appendix-06-translation.md)
+    - [F - Переводы данной книги](appendix-06-translation.md)
     - [G - How Rust is Made and “Nightly Rust”](appendix-07-nightly-rust.md)
